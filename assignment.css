@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* align-items: center; */
+}
+
+.background-color {
+    background-color: rgb(32, 227, 227);
+    height: 50vh;
+}
+
+.background{
+    margin: auto auto;
+    width: 350px;
+    padding: 30px 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    align-items: center;
+    backdrop-filter: blur(20px);
+    height: 80vh;
+}
+
+.image {
+    height: 50vh;
+    width: 20vw;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px;
+    border-radius: 5px;
+}
+
+.Name{
+        text-align: center;
+        font-weight: 400;
+        margin-top: 10px;
+}
+
+.position{
+    color: aqua;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.redirects{
+    /* margin-left: 30px */
+    margin-top: 30px;
+    /* box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25); */
+    display: inline;
+    /* align-items: center; */
+    /* position: relative; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+} 
+
+.facebook{
+    margin-left: 75px;
+    margin-top: 30px;
+    background-image: url(facebook.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: 2px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;  
+    margin-right: 10px;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+
+.linkedin{
+    background-image: url(linkedin.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: 2px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px; 
+    margin-right: 10px;  
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+    
+}
+
+.twitter{
+    background-image: url(twitter.png);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: 2px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px; 
+    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+
+.instagram{
+    background-image: url(instagram.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: 2px;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px; 
+    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+
+.facebook:hover{
+    transform: scale(1.15);
+}
+
+.twitter:hover{
+    transform: scale(1.15);
+}
+
+.instagram:hover{
+    transform: scale(1.15);
+}
+
+.linkedin:hover{
+    transform: scale(1.15);
+}
